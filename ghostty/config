@@ -1,0 +1,15 @@
+# --- Core Shell ---
+command = /bin/zsh
+
+# --- Neutral Transparency & Blur ---
+background = #0d0d0d
+background-opacity = 0.85
+background-blur = true
+
+# --- Window Layout ---
+window-padding-x = 14
+window-padding-y = 14
+macos-titlebar-style = hidden
+
+# --- Typography ---
+font-family = "JetBrai
