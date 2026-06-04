@@ -1,2 +1,6 @@
 nvim/
 .DS_Store
+nvim/
+nvim-lazy/
+nvim.backup/
+.DS_Store
