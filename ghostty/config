@@ -9,7 +9,11 @@ background-blur = true
 # --- Window Layout ---
 window-padding-x = 14
 window-padding-y = 14
-macos-titlebar-style = hidden
+macos-titlebar-style = tabs
 
 # --- Typography ---
-font-family = "JetBrai
+font-family = "JetBrainsMono Nerd Font"
+font-size = 14
+
+# --- SSH ---
+shell-integration-features = ssh-env

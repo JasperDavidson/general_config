@@ -1,6 +1,15 @@
-nvim/
 .DS_Store
+
+# nvim (managed elsewhere)
 nvim/
 nvim-lazy/
 nvim.backup/
-.DS_Store
+
+# zsh: history, generated completion cache, local-only overrides
+zsh/.zsh_history
+zsh/.zcompdump*
+zsh/.zsh_sessions/
+zsh/.zshrc.local
+
+# atuin: default config is auto-regenerated; history DB lives in ~/.local/share
+atuin/
