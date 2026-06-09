@@ -1,7 +1,6 @@
 .DS_Store
 
-# nvim (managed elsewhere)
-nvim/
+# nvim is tracked by this repo.
 nvim-lazy/
 nvim.backup/
 

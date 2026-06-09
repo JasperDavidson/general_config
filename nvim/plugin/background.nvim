@@ -1,0 +1,2 @@
+use "amansingh-afk/milli.nvim"
+vim.pack.add({"amansingh-afk/milli.nvim"})

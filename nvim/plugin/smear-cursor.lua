@@ -1,0 +1,3 @@
+-- Cursor animation looks nice, but it makes large jumps and fast scrolling feel laggy.
+-- vim.pack.add({ "https://github.com/sphamba/smear-cursor.nvim" })
+-- require("smear_cursor").setup({})
