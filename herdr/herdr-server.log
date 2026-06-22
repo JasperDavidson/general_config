@@ -1,0 +1,332 @@
+2026-06-22T16:18:28.606798Z  INFO herdr::platform::macos: raised server file descriptor soft limit previous=256 target=8192
+2026-06-22T16:18:28.607562Z  INFO herdr::api::server: api server listening path=/Users/jasperd@nvidia.com/.config/herdr/herdr.sock
+2026-06-22T16:18:28.608984Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-06-22T16:18:28.626964Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-22T16:18:28.627799Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-06-22T16:18:28.631388Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=22255
+2026-06-22T16:18:28.631639Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w1" pane_id=1
+2026-06-22T16:18:28.631666Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-06-22T16:18:28.631717Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-06-22T16:18:28.631739Z  INFO herdr::server::headless: created startup workspace cwd=/Users/jasperd@nvidia.com
+2026-06-22T16:18:28.632066Z  INFO herdr::server::headless: client protocol socket listening path=/Users/jasperd@nvidia.com/.config/herdr/herdr-client.sock
+2026-06-22T16:18:28.632097Z  INFO herdr::server::headless: herdr server started api_socket=/Users/jasperd@nvidia.com/.config/herdr/herdr.sock client_socket=/Users/jasperd@nvidia.com/.config/herdr/herdr-client.sock
+2026-06-22T16:18:28.632120Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=22240
+2026-06-22T16:18:28.887817Z  INFO herdr::server::headless: client connected client_id=2 cols=212 rows=59 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-06-22T16:18:33.636861Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=1
+2026-06-22T16:18:59.197555Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=58 cols=186 scrollback_limit_bytes=10000000
+2026-06-22T16:18:59.206617Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=22494
+2026-06-22T16:18:59.207216Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w2" pane_id=2
+2026-06-22T16:18:59.207298Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-06-22T16:18:59.207335Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-06-22T16:19:04.220352Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=2
+2026-06-22T16:19:11.282453Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-06-22T16:19:11.282555Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-06-22T16:19:16.292348Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=2
+2026-06-22T16:19:33.945189Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-06-22T16:19:33.945394Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-06-22T16:19:38.951396Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=2
+2026-06-22T16:19:47.881557Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-06-22T16:19:49.003560Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-06-22T16:19:54.009089Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=2
+2026-06-22T16:21:25.949867Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="ok" action="install" target="claude"
+2026-06-22T16:21:25.959759Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="ok" action="install" target="codex"
+2026-06-22T16:21:30.980358Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=2
+2026-06-22T16:22:12.315890Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-06-22T16:22:12.316089Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-06-22T16:22:14.576574Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-06-22T16:22:14.576733Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-06-22T16:22:16.018940Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-06-22T16:22:16.019104Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-06-22T16:22:17.882942Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-06-22T16:22:17.883121Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-06-22T16:22:22.892716Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=2
+2026-06-22T16:22:35.878032Z  INFO herdr::logging: workspace renamed event="workspace.rename" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-06-22T16:22:37.642547Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-06-22T16:22:37.642637Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-06-22T16:22:40.282656Z  INFO herdr::logging: workspace renamed event="workspace.rename" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-06-22T16:22:44.357351Z  INFO herdr::logging: workspace renamed event="workspace.rename" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-06-22T16:22:48.292940Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-06-22T16:22:48.293022Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-06-22T16:22:53.301333Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=2
+2026-06-22T16:31:37.341105Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=58 cols=186 scrollback_limit_bytes=10000000
+2026-06-22T16:31:37.348436Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=23153
+2026-06-22T16:31:37.348899Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w3" pane_id=3
+2026-06-22T16:31:37.348969Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-06-22T16:31:37.348993Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T16:31:42.359880Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T16:32:11.698659Z  INFO herdr::logging: workspace renamed event="workspace.rename" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-06-22T16:32:16.788894Z  INFO herdr::pane: agent changed pane=3 previous_agent=None agent=Some(Claude) process=claude pgid=Some(23280)
+2026-06-22T16:32:19.385094Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T16:32:27.198826Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T16:32:55.684585Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-06-22T16:32:55.684664Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-06-22T16:32:56.260584Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-06-22T16:32:56.260681Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-06-22T16:32:56.539193Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-06-22T16:32:56.539336Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-06-22T16:32:57.108521Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-06-22T16:32:57.108573Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-06-22T16:33:00.513362Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-06-22T16:33:00.513411Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T16:33:05.520800Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T16:40:00.223738Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-06-22T16:40:00.223791Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-06-22T16:40:00.708794Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-06-22T16:40:00.708884Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-06-22T16:40:02.461794Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-06-22T16:40:02.461895Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T16:40:04.974516Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-06-22T16:40:04.974622Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-06-22T16:40:05.362844Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-06-22T16:40:05.362925Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-06-22T16:40:10.369259Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T16:40:40.488700Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-06-22T16:40:40.488811Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T16:40:44.904493Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=4 rows=58 cols=186 scrollback_limit_bytes=10000000
+2026-06-22T16:40:44.910821Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=4 pid=24093
+2026-06-22T16:40:44.911148Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2"
+2026-06-22T16:40:44.911179Z  INFO herdr::logging: tab created event="tab.create" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2" pane_id=4
+2026-06-22T16:40:48.069043Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T16:40:51.814603Z  INFO herdr::logging: tab renamed event="tab.rename" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T16:40:52.961069Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2"
+2026-06-22T16:40:54.035971Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T16:40:54.750382Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2"
+2026-06-22T16:40:59.757831Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T16:42:01.212138Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T16:42:06.222312Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T16:42:46.549865Z  INFO herdr::pane: agent changed pane=3 previous_agent=Some(Claude) agent=None pgid=Some(23153)
+2026-06-22T16:42:51.554484Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T16:43:00.703861Z  INFO herdr::pane: agent changed pane=3 previous_agent=None agent=Some(Claude) process=claude pgid=Some(24528)
+2026-06-22T16:43:11.978493Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T16:43:21.437322Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2"
+2026-06-22T16:43:26.443556Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T16:45:24.446110Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T16:45:29.449895Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T16:46:06.197783Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2"
+2026-06-22T16:46:11.201283Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T16:46:21.099347Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T16:46:26.103926Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T16:48:28.643456Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-22T16:49:01.723544Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-06-22T16:49:01.723618Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-06-22T16:49:02.835624Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-06-22T16:49:02.835715Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-06-22T16:49:03.862237Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-06-22T16:49:03.862367Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T16:49:12.782057Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T16:50:38.482116Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2"
+2026-06-22T16:50:43.489282Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T16:50:50.915389Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T16:50:55.925459Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T16:51:12.860701Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T16:51:13.257911Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2"
+2026-06-22T16:51:13.747764Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T16:51:16.764983Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2"
+2026-06-22T16:51:18.009844Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T16:51:18.290347Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2"
+2026-06-22T16:51:23.295871Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T16:51:44.847993Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-06-22T16:51:44.848126Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-06-22T16:51:45.734350Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-06-22T16:51:45.734480Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-06-22T16:51:46.413509Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-06-22T16:51:46.413592Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2"
+2026-06-22T16:51:47.262719Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-06-22T16:51:47.262836Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-06-22T16:51:48.559178Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-06-22T16:51:48.559259Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2"
+2026-06-22T16:51:50.756321Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T16:51:51.443990Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-06-22T16:51:51.444080Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-06-22T16:51:52.202348Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-06-22T16:51:52.202419Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T16:51:57.208768Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T16:53:08.914438Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T16:53:16.583480Z  INFO herdr::server::headless: client detach requested via keybind client_id=2
+2026-06-22T16:53:16.587542Z  INFO herdr::server::headless: client disconnected client_id=2
+2026-06-22T16:53:52.705102Z  INFO herdr::server::headless: client connected client_id=4 cols=212 rows=59 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-06-22T16:53:57.390820Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2"
+2026-06-22T16:53:57.970952Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T16:54:02.978943Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T16:54:23.467194Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T16:54:28.475752Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T16:54:38.606090Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T16:54:45.301270Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T16:54:55.348243Z  INFO herdr::logging: tab renamed event="tab.rename" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T16:55:00.353840Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T16:55:25.816388Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=5 rows=58 cols=186 scrollback_limit_bytes=10000000
+2026-06-22T16:55:25.833966Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=5 pid=27188
+2026-06-22T16:55:25.834380Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T16:55:25.834430Z  INFO herdr::logging: tab created event="tab.create" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3" pane_id=5
+2026-06-22T16:55:28.039094Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T16:55:32.463245Z  INFO herdr::logging: tab renamed event="tab.rename" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T16:55:37.473365Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T16:55:51.855005Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2"
+2026-06-22T16:55:56.863553Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T16:55:57.206930Z  INFO herdr::logging: tab renamed event="tab.rename" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2"
+2026-06-22T16:56:02.210555Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T16:56:05.278050Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T16:56:05.575357Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T16:56:05.999930Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2"
+2026-06-22T16:56:08.316659Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T16:56:10.462586Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T16:56:11.180612Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T16:56:11.588245Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T16:56:11.911607Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T16:56:12.246522Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T16:56:12.824472Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T16:56:13.245693Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2"
+2026-06-22T16:56:13.574247Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T16:56:13.901285Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T16:56:16.816239Z  INFO herdr::pane: agent changed pane=5 previous_agent=None agent=Some(Claude) process=claude pgid=Some(27353)
+2026-06-22T16:56:23.377165Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T16:56:26.544082Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T16:56:31.548267Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T16:59:42.397897Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2"
+2026-06-22T16:59:42.846324Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T16:59:47.851875Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T17:01:21.202528Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T17:01:21.662267Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T17:01:26.666813Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T17:10:13.290593Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T17:10:18.299745Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T17:10:32.813463Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T17:10:33.285264Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T17:10:35.231583Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T17:10:40.240621Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T17:10:54.127595Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T17:10:55.788791Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T17:11:00.798725Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T17:11:41.355073Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T17:11:46.363276Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T17:11:57.970196Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T17:12:02.973185Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T17:15:39.429998Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T17:15:44.437347Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T17:18:13.120201Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T17:18:18.128460Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T17:18:28.650417Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-22T17:19:02.006805Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T17:19:03.479078Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T17:19:08.483184Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T17:20:03.648130Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T17:20:07.356850Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T17:20:12.366549Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T17:21:47.269093Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T17:21:52.273980Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T17:22:00.465335Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T17:22:05.471437Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T17:33:11.475921Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T17:33:16.482060Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T17:33:59.413593Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T17:34:00.727577Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T17:34:05.736935Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T17:34:53.154110Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T17:34:58.157613Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T17:35:55.428688Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T17:35:56.068045Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T17:36:01.077264Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T17:38:24.638045Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T17:38:29.642732Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T17:39:45.288736Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T17:39:50.293558Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T17:39:57.838337Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T17:40:02.845009Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T17:40:40.726779Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T17:40:45.735357Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T17:40:47.368103Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T17:40:52.373046Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T17:48:28.647645Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-22T18:18:28.621030Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-22T18:39:53.685874Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T18:39:58.691309Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T18:40:31.153231Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T18:40:36.157354Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T18:41:21.386644Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T18:41:21.791835Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T18:41:22.887648Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T18:41:27.895784Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T18:48:28.630953Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-22T18:49:24.766516Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T18:49:29.777336Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T18:49:41.927197Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T18:49:46.936236Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T18:57:00.735985Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T18:57:01.248521Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T18:57:06.252449Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T18:59:08.166750Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T18:59:13.174577Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T19:17:46.435597Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T19:17:51.439931Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T19:18:28.591608Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-22T19:19:23.456306Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T19:19:28.460126Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T19:19:34.496609Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T19:19:39.524974Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T19:19:49.623430Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T19:19:54.628197Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T19:19:59.729308Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T19:20:04.734168Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T19:28:49.262749Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T19:28:54.271894Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T19:37:43.505890Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T19:37:48.508187Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T19:41:19.581145Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T19:41:24.586465Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T19:43:52.751214Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T19:43:57.754772Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T19:44:15.793485Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T19:44:18.124847Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T19:44:23.130480Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T19:51:10.887823Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T19:51:15.898979Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T19:53:46.122578Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-22T19:59:25.586212Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T19:59:26.728445Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T19:59:31.736656Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T20:32:36.703830Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-22T21:18:21.158382Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-22T21:18:53.474881Z  INFO herdr::server::headless: client resize client_id=4 cols=242 rows=63 cell_width_px=0 cell_height_px=0
+2026-06-22T21:18:54.308192Z  INFO herdr::server::headless: client resize client_id=4 cols=212 rows=59 cell_width_px=0 cell_height_px=0
+2026-06-22T21:28:47.348331Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T21:28:52.359690Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T21:41:30.113800Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T21:41:30.474834Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2"
+2026-06-22T21:41:35.478840Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T21:42:09.600613Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T21:42:14.609189Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T21:45:03.674426Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T21:45:08.677910Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T21:45:32.298043Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T21:45:37.306707Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T21:48:21.175846Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-22T21:50:52.110532Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T21:50:52.441697Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T21:50:57.445968Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T22:10:04.959856Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-06-22T22:10:04.959972Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-06-22T22:10:05.462790Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-06-22T22:10:05.462913Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-06-22T22:10:07.095286Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-06-22T22:10:07.095363Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-06-22T22:10:07.472078Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-06-22T22:10:07.472161Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-06-22T22:10:08.048565Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-06-22T22:10:08.048661Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-06-22T22:10:10.059951Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-06-22T22:10:10.060060Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T22:10:15.068658Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T22:10:56.493310Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T22:11:01.504488Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T22:13:45.502086Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T22:13:50.508026Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T22:13:52.013328Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T22:13:57.023742Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T22:18:21.182744Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-22T22:48:21.169052Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-22T22:50:55.025129Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-06-22T22:50:55.959862Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-22T22:51:00.967792Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3
+2026-06-22T23:18:21.147181Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-22T23:24:46.079453Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2"
+2026-06-22T23:24:51.087835Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jasperd@nvidia.com/.config/herdr/session.json workspaces=3

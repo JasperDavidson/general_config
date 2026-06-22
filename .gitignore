@@ -1,4 +1,5 @@
 .DS_Store
+nvinfo/
 
 # nvim is tracked by this repo.
 nvim-lazy/

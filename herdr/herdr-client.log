@@ -1,0 +1,7 @@
+2026-06-22T16:18:28.652088Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=22239
+2026-06-22T16:18:28.652152Z  INFO herdr::client: connecting to server path=/Users/jasperd@nvidia.com/.config/herdr/herdr-client.sock
+2026-06-22T16:18:28.887807Z  INFO herdr::client: handshake succeeded version=14 encoding=SemanticFrame
+2026-06-22T16:53:16.584479Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=22239
+2026-06-22T16:53:52.611431Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=27140
+2026-06-22T16:53:52.611490Z  INFO herdr::client: connecting to server path=/Users/jasperd@nvidia.com/.config/herdr/herdr-client.sock
+2026-06-22T16:53:52.705112Z  INFO herdr::client: handshake succeeded version=14 encoding=SemanticFrame

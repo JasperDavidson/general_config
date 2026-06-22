@@ -18,7 +18,13 @@ setopt PUSHD_IGNORE_DUPS
 setopt INTERACTIVE_COMMENTS   # allow # comments in interactive shells
 
 # ---------- Completion ----------
-autoload -Uz compinit && compinit
+# Only rescan completions if the cache is older than 24 hours.
+autoload -Uz compinit
+if [[ -n ${ZDOTDIR}/.zcompdump(#qN.mh+24) ]]; then
+  compinit
+else
+  compinit -C
+fi
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'  # case-insensitive
 zstyle ':completion:*' menu select                          # arrow-key menu
 
@@ -74,16 +80,29 @@ ZVM_LINE_INIT_MODE=$ZVM_MODE_INSERT
 zinit light jeffreytse/zsh-vi-mode
 
 # ---------- Tool integrations ----------
+# Each tool's init script is cached and only regenerated when the binary changes.
+# This makes startup fast while staying portable across machines.
+
+_tool_init() {
+  local bin="$1" cache="$2"; shift 2
+  local bin_path
+  bin_path="$(command -v "$bin" 2>/dev/null)" || return 0
+  if [[ ! -f "$cache" || "$bin_path" -nt "$cache" ]]; then
+    "$bin_path" "$@" >| "$cache" 2>/dev/null
+  fi
+  source "$cache"
+}
+_cache="${XDG_CACHE_HOME:-$HOME/.cache}"
+
 # starship prompt
-command -v starship >/dev/null && eval "$(starship init zsh)"
+_tool_init starship "$_cache/starship_init.zsh" init zsh
 
 # zoxide: `z foo` jumps, `zi` opens fzf picker
-command -v zoxide >/dev/null && eval "$(zoxide init zsh)"
+_tool_init zoxide "$_cache/zoxide_init.zsh" init zsh
 
 # fzf: Ctrl-T files, Alt-C dirs. (Ctrl-R is taken by atuin below.)
 # Load BEFORE atuin so atuin's Ctrl+R binding wins.
-if command -v fzf >/dev/null; then
-  source <(fzf --zsh) 2>/dev/null || true
+if _tool_init fzf "$_cache/fzf_init.zsh" --zsh; then
   export FZF_DEFAULT_OPTS="--height 40% --layout=reverse --border --info=inline"
   if command -v fd >/dev/null; then
     export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
@@ -97,9 +116,12 @@ fi
 # Ctrl+R binding. ZVM's `zvm_after_init_commands` array runs AFTER its rebinds,
 # so we register atuin there to make sure the binding sticks.
 if command -v atuin >/dev/null; then
-  eval "$(atuin init zsh --disable-up-arrow)"
+  _tool_init atuin "$_cache/atuin_init.zsh" init zsh --disable-up-arrow
   zvm_after_init_commands+=('bindkey "^R" atuin-search')
 fi
+
+unfunction _tool_init
+unset _cache
 
 # ---------- Aliases ----------
 [[ -f "${ZDOTDIR}/aliases.zsh" ]] && source "${ZDOTDIR}/aliases.zsh"
