@@ -1,1 +1,4 @@
-/nix/store/fq0p6dc1smhvy1ly4z2sgk0yzxr60zpf-home-manager-files/.config/git/ignore
+.claude/
+.codex/
+.pi/
+.DS_Store

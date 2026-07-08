@@ -128,6 +128,3 @@ unset _cache
 
 # ---------- Local overrides (not committed) ----------
 [[ -f "${ZDOTDIR}/.zshrc.local" ]] && source "${ZDOTDIR}/.zshrc.local"
-
-# opencode
-export PATH=/Users/jasperdavidson/.opencode/bin:$PATH

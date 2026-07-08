@@ -1,1 +1,9 @@
-/nix/store/fq0p6dc1smhvy1ly4z2sgk0yzxr60zpf-home-manager-files/.config/git/config
+[user]
+	name = JasperDavidson
+	email = jasperdavdsn@gmail.com
+[pull]
+	ff = false
+[init]
+	defaultBranch = main
+[core]
+	excludesFile = ~/.config/git/ignore

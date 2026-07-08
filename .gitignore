@@ -8,8 +8,11 @@ nvim.backup/
 # zsh: history, generated completion cache, local-only overrides
 zsh/.zsh_history
 zsh/.zcompdump*
+zsh/.zcompcache/
 zsh/.zsh_sessions/
 zsh/.zshrc.local
 
-# atuin: default config is auto-regenerated; history DB lives in ~/.local/share
-atuin/
+# herdr runtime logs
+herdr/*.log
+
+# atuin runtime lives in ~/.local/share/atuin and ~/.atuin/logs

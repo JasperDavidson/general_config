@@ -12,6 +12,5 @@ fi
 [[ -f "$_brew_cache" ]] && source "$_brew_cache"
 unset _brew_cache _brew_bin
 
-# >>> Codex installer >>>
-export PATH="/Users/jasperd@nvidia.com/.local/bin:$PATH"
-# <<< Codex installer <<<
+# User-local binaries
+export PATH="$HOME/.local/bin:$PATH"
