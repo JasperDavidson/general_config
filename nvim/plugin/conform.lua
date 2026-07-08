@@ -18,7 +18,7 @@ require("conform").setup({
 		c = { "clang-format" },
 		cpp = { "clang-format" },
 		objcpp = { "clang-format" },
-		python = { "ruff" },
+		python = { "ruff_format" },
 	},
 })
 

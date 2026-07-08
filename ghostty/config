@@ -1,10 +1,11 @@
 # --- Core Shell ---
 command = /bin/zsh
 
-# --- Neutral Transparency & Blur ---
-background = #0d0d0d
-background-opacity = 0.85
-background-blur = true
+# --- Neutral Transparency & Blur / Theming ---
+# background = #0d0d0d
+#background-opacity = 0.85
+#background-blur = true
+theme = Kanso Zen
 
 # --- Window Layout ---
 window-padding-x = 14
