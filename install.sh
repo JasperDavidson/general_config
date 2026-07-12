@@ -19,7 +19,7 @@ Sets up:
   - zsh ZDOTDIR bootstrap via ~/.zshenv
   - shared agent config for Claude, Codex, and Pi
   - Atuin AI permission file
-  - Homebrew CLI dependencies on macOS unless --no-brew is passed
+  - Homebrew CLI and app dependencies on macOS unless --no-brew is passed
 
 Existing non-matching files are moved to ~/.local/state/general_config/backups/<timestamp>/.
 EOF
@@ -146,8 +146,14 @@ install_brew_packages() {
     jq
     tree
     clang-format
+    llvm
+    rust-analyzer
     lua-language-server
     pyright
+    stylua
+    ruff
+    tectonic
+    lazygit
   )
 
   log "Installing Homebrew formulae"
@@ -158,10 +164,18 @@ install_brew_packages() {
     fi
   done
 
-  log "Installing Nerd Font"
-  if ! brew list --cask font-jetbrains-mono-nerd-font >/dev/null 2>&1; then
-    run brew install --cask font-jetbrains-mono-nerd-font
-  fi
+  local casks=(
+    font-jetbrains-mono-nerd-font
+    ghostty
+    skim
+  )
+
+  log "Installing Homebrew casks"
+  for pkg in "${casks[@]}"; do
+    if ! brew list --cask "$pkg" >/dev/null 2>&1; then
+      run brew install --cask "$pkg"
+    fi
+  done
 }
 
 install_zinit() {
