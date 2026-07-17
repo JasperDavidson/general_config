@@ -6,9 +6,9 @@
       "custom_name": "general",
       "identity_cwd": "/Users/jasperdavidson/code/scratch",
       "public_pane_numbers": {
+        "21": 42,
         "3": 1,
-        "2": 4,
-        "21": 42
+        "2": 4
       },
       "next_public_pane_number": 44,
       "public_tab_numbers": [
@@ -74,11 +74,11 @@
       "custom_name": null,
       "identity_cwd": "/Users/jasperdavidson/code/driverless-docker",
       "public_pane_numbers": {
-        "20": 37,
         "17": 34,
+        "20": 37,
+        "5": 3,
         "11": 22,
-        "8": 10,
-        "5": 3
+        "8": 10
       },
       "next_public_pane_number": 38,
       "public_tab_numbers": [
