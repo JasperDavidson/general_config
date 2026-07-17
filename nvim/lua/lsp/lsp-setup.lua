@@ -37,8 +37,7 @@ vim.lsp.config["pyright"] = {
 
 vim.lsp.config["typos_lsp"] = {
 	cmd = { "typos-lsp" },
-	filetypes = { "*" },
-	root_markers = { ".git" },
+	root_markers = { ".git", "typos.toml", "_typos.toml", ".typos.toml", "pyproject.toml", "Cargo.toml" },
 }
 
 vim.lsp.enable("clangd")

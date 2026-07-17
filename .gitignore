@@ -15,4 +15,11 @@ zsh/.zshrc.local
 # herdr runtime logs
 herdr/*.log
 
+# Herdr runtime state
+herdr/release-notes.json
+herdr/session.json
+
+# System-managed agent skills
+agents/skills/.system/
+
 # atuin runtime lives in ~/.local/share/atuin and ~/.atuin/logs
