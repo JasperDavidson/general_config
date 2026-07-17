@@ -17,7 +17,7 @@ Usage: ./install.sh [--no-brew] [--dry-run]
 Sets up:
   - XDG config links: agents, atuin, cf-include, clangd, gh, ghostty, git, herdr, nvim, starship
   - zsh ZDOTDIR bootstrap via ~/.zshenv
-  - shared agent config for Claude, Codex, OpenCode, and Pi
+  - shared agent config for Claude, Codex, and OMP
   - Atuin AI permission file
   - Homebrew CLI and app dependencies on macOS unless --no-brew is passed
 
@@ -208,14 +208,12 @@ install_config_links() {
   link_path "$CONFIG_HOME/git/ignore" "$HOME/.gitignore_global"
 
   log "Linking shared agent config"
-  run mkdir -p "$HOME/.claude" "$HOME/.codex" "$CONFIG_HOME/opencode" "$HOME/.omp/agent"
+  run mkdir -p "$HOME/.claude" "$HOME/.codex" "$HOME/.omp/agent"
   link_path "$CONFIG_HOME/agents/AGENTS.md" "$HOME/.claude/CLAUDE.md"
   link_path "$CONFIG_HOME/agents/AGENTS.md" "$HOME/.codex/AGENTS.md"
-  link_path "$CONFIG_HOME/agents/AGENTS.md" "$CONFIG_HOME/opencode/AGENTS.md"
   link_path "$CONFIG_HOME/agents/AGENTS.md" "$HOME/.omp/agent/AGENTS.md"
   link_path "$CONFIG_HOME/agents/skills" "$HOME/.claude/skills"
   link_path "$CONFIG_HOME/agents/skills" "$HOME/.codex/skills"
-  link_path "$CONFIG_HOME/agents/skills" "$CONFIG_HOME/opencode/skills"
   link_path "$CONFIG_HOME/agents/skills" "$HOME/.omp/agent/skills"
 
   log "Linking Atuin AI permissions"

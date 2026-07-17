@@ -4,38 +4,20 @@
     {
       "id": "w6",
       "custom_name": "general",
-      "identity_cwd": "/Users/jasperdavidson/code",
+      "identity_cwd": "/Users/jasperdavidson/code/scratch",
       "public_pane_numbers": {
-        "32": 28,
         "3": 1,
-        "33": 29,
-        "1": 5,
-        "2": 4
+        "2": 4,
+        "21": 42
       },
-      "next_public_pane_number": 33,
+      "next_public_pane_number": 44,
       "public_tab_numbers": [
-        5,
         4,
         1,
-        22,
-        23
+        36
       ],
-      "next_public_tab_number": 27,
+      "next_public_tab_number": 38,
       "tabs": [
-        {
-          "custom_name": "test",
-          "layout": {
-            "Pane": 1
-          },
-          "panes": {
-            "1": {
-              "cwd": "/Users/jasperdavidson/code"
-            }
-          },
-          "zoomed": false,
-          "focused": 1,
-          "root_pane": 1
-        },
         {
           "custom_name": "scratch",
           "layout": {
@@ -67,117 +49,61 @@
         {
           "custom_name": null,
           "layout": {
-            "Pane": 32
+            "Pane": 21
           },
           "panes": {
-            "32": {
-              "cwd": "/Users/jasperdavidson/self-host/resume"
-            }
-          },
-          "zoomed": false,
-          "focused": 32,
-          "root_pane": 32
-        },
-        {
-          "custom_name": null,
-          "layout": {
-            "Pane": 33
-          },
-          "panes": {
-            "33": {
+            "21": {
               "cwd": "/Users/jasperdavidson/.config",
               "agent_session": {
-                "source": "herdr:pi",
-                "agent": "pi",
+                "source": "herdr:omp",
+                "agent": "omp",
                 "kind": "path",
-                "value": "/Users/jasperdavidson/.pi/agent/sessions/--Users-jasperdavidson-.config--/2026-07-08T15-58-28-886Z_019f4273-bc16-7355-8b6d-dade8b4da8bd.jsonl"
+                "value": "/Users/jasperdavidson/.omp/agent/sessions/-.config/2026-07-17T22-00-02-447Z_019f7217-fc8f-7000-a885-193059335cfc.jsonl"
               }
             }
           },
           "zoomed": false,
-          "focused": 33,
-          "root_pane": 33
+          "focused": 21,
+          "root_pane": 21
         }
       ],
-      "active_tab": 4
+      "active_tab": 2
     },
     {
       "id": "w4",
       "custom_name": null,
       "identity_cwd": "/Users/jasperdavidson/code/driverless-docker",
       "public_pane_numbers": {
-        "17": 18,
-        "10": 13,
-        "21": 22,
-        "7": 3,
-        "16": 17,
-        "9": 10,
-        "13": 15,
-        "28": 29
+        "20": 37,
+        "17": 34,
+        "11": 22,
+        "8": 10,
+        "5": 3
       },
-      "next_public_pane_number": 31,
+      "next_public_pane_number": 38,
       "public_tab_numbers": [
-        16,
+        31,
         3,
-        17,
-        18,
         10,
-        13,
-        15,
-        22
+        22,
+        34
       ],
-      "next_public_tab_number": 28,
+      "next_public_tab_number": 35,
       "tabs": [
         {
-          "custom_name": "harness_agent",
-          "layout": {
-            "Pane": 28
-          },
-          "panes": {
-            "28": {
-              "cwd": "/Users/jasperdavidson/code/driverless-docker"
-            }
-          },
-          "zoomed": false,
-          "focused": 28,
-          "root_pane": 28
-        },
-        {
-          "custom_name": "t1",
-          "layout": {
-            "Pane": 7
-          },
-          "panes": {
-            "7": {
-              "cwd": "/Users/jasperdavidson/code/driverless-docker"
-            }
-          },
-          "zoomed": false,
-          "focused": 7,
-          "root_pane": 7
-        },
-        {
-          "custom_name": "t2",
-          "layout": {
-            "Pane": 16
-          },
-          "panes": {
-            "16": {
-              "cwd": "/Users/jasperdavidson/code/driverless-docker/driverless"
-            }
-          },
-          "zoomed": false,
-          "focused": 16,
-          "root_pane": 16
-        },
-        {
-          "custom_name": "t3",
+          "custom_name": "agent",
           "layout": {
             "Pane": 17
           },
           "panes": {
             "17": {
-              "cwd": "/Users/jasperdavidson/code/driverless-docker/driverless"
+              "cwd": "/Users/jasperdavidson/code/driverless-docker",
+              "agent_session": {
+                "source": "herdr:omp",
+                "agent": "omp",
+                "kind": "path",
+                "value": "/Users/jasperdavidson/.omp/agent/sessions/-code-driverless-docker/2026-07-16T02-45-10-224Z_019f68d0-4fd0-7000-a819-727cd983c2cf.jsonl"
+              }
             }
           },
           "zoomed": false,
@@ -185,60 +111,60 @@
           "root_pane": 17
         },
         {
-          "custom_name": "e1",
+          "custom_name": "t1",
           "layout": {
-            "Pane": 9
+            "Pane": 5
           },
           "panes": {
-            "9": {
+            "5": {
+              "cwd": "/Users/jasperdavidson/code/driverless-docker"
+            }
+          },
+          "zoomed": false,
+          "focused": 5,
+          "root_pane": 5
+        },
+        {
+          "custom_name": "e1",
+          "layout": {
+            "Pane": 8
+          },
+          "panes": {
+            "8": {
               "cwd": "/Users/jasperdavidson/code/driverless-docker/driverless/driverless_ws/src/harness_engine/harness_engine"
             }
           },
           "zoomed": false,
-          "focused": 9,
-          "root_pane": 9
-        },
-        {
-          "custom_name": "e2",
-          "layout": {
-            "Pane": 10
-          },
-          "panes": {
-            "10": {
-              "cwd": "/Users/jasperdavidson/code/driverless-docker/driverless/driverless_ws/src/point_to_pixel/include/point_to_pixel/managers"
-            }
-          },
-          "zoomed": false,
-          "focused": 10,
-          "root_pane": 10
-        },
-        {
-          "custom_name": "e3",
-          "layout": {
-            "Pane": 13
-          },
-          "panes": {
-            "13": {
-              "cwd": "/Users/jasperdavidson/code/driverless-docker/driverless/driverless_ws/src/point_to_pixel/src/managers"
-            }
-          },
-          "zoomed": false,
-          "focused": 13,
-          "root_pane": 13
+          "focused": 8,
+          "root_pane": 8
         },
         {
           "custom_name": "docs",
           "layout": {
-            "Pane": 21
+            "Pane": 11
           },
           "panes": {
-            "21": {
+            "11": {
               "cwd": "/Users/jasperdavidson/code/driverless-docker/driverless/docs/perception/regression-harness"
             }
           },
           "zoomed": false,
-          "focused": 21,
-          "root_pane": 21
+          "focused": 11,
+          "root_pane": 11
+        },
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 20
+          },
+          "panes": {
+            "20": {
+              "cwd": "/Users/jasperdavidson/code/driverless-docker"
+            }
+          },
+          "zoomed": false,
+          "focused": 20,
+          "root_pane": 20
         }
       ],
       "active_tab": 0
@@ -248,28 +174,44 @@
       "custom_name": "machine-learning",
       "identity_cwd": "/Users/jasperdavidson/code/ml_learning/makemore",
       "public_pane_numbers": {
-        "11": 2
+        "13": 3,
+        "12": 2
       },
-      "next_public_pane_number": 3,
+      "next_public_pane_number": 4,
       "public_tab_numbers": [
-        2
+        2,
+        3
       ],
-      "next_public_tab_number": 3,
+      "next_public_tab_number": 4,
       "tabs": [
         {
           "custom_name": "terminal",
           "layout": {
-            "Pane": 11
+            "Pane": 12
           },
           "panes": {
-            "11": {
+            "12": {
               "cwd": "/Users/jasperdavidson/code/ml_learning/makemore",
               "label": "machine-learning"
             }
           },
           "zoomed": false,
-          "focused": 11,
-          "root_pane": 11
+          "focused": 12,
+          "root_pane": 12
+        },
+        {
+          "custom_name": "dev",
+          "layout": {
+            "Pane": 13
+          },
+          "panes": {
+            "13": {
+              "cwd": "/Users/jasperdavidson/code/ml_learning/makemore"
+            }
+          },
+          "zoomed": false,
+          "focused": 13,
+          "root_pane": 13
         }
       ],
       "active_tab": 0

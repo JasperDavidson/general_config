@@ -1,6 +1,9 @@
 # ~/.config/zsh/.zshrc
 # Loaded for interactive shells. ZDOTDIR points zsh here from ~/.zshenv.
 
+# OMP runs interactive command shells without terminal capabilities.
+[[ "$TERM" == dumb ]] && return
+
 # ---------- History ----------
 HISTFILE="${ZDOTDIR}/.zsh_history"
 HISTSIZE=50000
