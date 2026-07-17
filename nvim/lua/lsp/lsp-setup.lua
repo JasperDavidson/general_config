@@ -37,6 +37,9 @@ vim.lsp.config["pyright"] = {
 
 vim.lsp.config["typos_lsp"] = {
 	cmd = { "typos-lsp" },
+	init_options = {
+		diagnosticSeverity = "Warning",
+	},
 	root_markers = { ".git", "typos.toml", "_typos.toml", ".typos.toml", "pyproject.toml", "Cargo.toml" },
 }
 
