@@ -35,7 +35,14 @@ vim.lsp.config["pyright"] = {
 	},
 }
 
+vim.lsp.config["typos_lsp"] = {
+	cmd = { "typos-lsp" },
+	filetypes = { "*" },
+	root_markers = { ".git" },
+}
+
 vim.lsp.enable("clangd")
 vim.lsp.enable("rust-analyzer")
 vim.lsp.enable("lua-ls")
 vim.lsp.enable("pyright")
+vim.lsp.enable("typos_lsp")
