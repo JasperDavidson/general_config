@@ -1,4 +1,5 @@
 "$schema" = 'https://starship.rs/config-schema.json'
+format = '$directory${custom.jj}$all'
 
 [aws]
 symbol = " "
@@ -83,9 +84,11 @@ symbol = "󱇶 "
 symbol = " "
 
 [git_branch]
+disabled = true
 symbol = " "
 
 [git_commit]
+disabled = true
 tag_symbol = '  '
 
 [golang]
@@ -306,6 +309,14 @@ symbol = " "
 
 [zig]
 symbol = " "
+
+[custom.jj]
+when = "jj-starship detect"
+shell = ["jj-starship"]
+format = "$output "
+
+[git_status]
+disabled = true
 
 [character]
 success_symbol = "[❯](bold green)"
