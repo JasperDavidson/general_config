@@ -23,3 +23,6 @@ herdr/session.json
 agents/skills/.system/
 
 # atuin runtime lives in ~/.local/share/atuin and ~/.atuin/logs
+
+# jj per-repository runtime state
+jj/repos/

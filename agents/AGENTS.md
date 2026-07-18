@@ -79,7 +79,8 @@ No speculative tool use. No redundant reads.
 - Delegate broad searches and verbose outputs to subagents. If a grep or exploration would flood the main context without being immediately actionable, use an Explore or general-purpose agent.
 - Don't restate my request before acting. Start with the first tool call or question.
 
-# Git
+# Version control
+- Use `jj` for all version-control operations. Do not run `git` commands.
 - Never submit, commit, push, or otherwise hand off AI-generated artifacts as
   deliverables. This includes generated docs/notes files such as CONTEXT.md,
   generated PR/issue prose presented as the user's own, etc. Code documentation

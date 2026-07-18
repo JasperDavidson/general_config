@@ -15,7 +15,8 @@ usage() {
 Usage: ./install.sh [--no-brew] [--dry-run]
 
 Sets up:
-  - XDG config links: agents, atuin, cf-include, clangd, gh, ghostty, git, herdr, nvim, starship
+  - XDG config links: agents, atuin, cf-include, clangd, gh, ghostty, git, herdr, jj, nvim, starship
+  - AeroSpace config via ~/.aerospace.toml
   - zsh ZDOTDIR bootstrap via ~/.zshenv
   - shared agent config for Claude, Codex, and OMP
   - Atuin AI permission file
@@ -133,6 +134,7 @@ install_brew_packages() {
   local formulae=(
     git
     gh
+    jj
     can1357/tap/omp
     herdr
     neovim
@@ -167,6 +169,7 @@ install_brew_packages() {
   done
 
   local casks=(
+    nikitabobko/tap/aerospace
     font-jetbrains-mono-nerd-font
     ghostty
     skim
@@ -194,9 +197,12 @@ install_config_links() {
   run mkdir -p "$CONFIG_HOME"
 
   local item
-  for item in agents atuin cf-include clangd gh ghostty git herdr nvim starship.toml; do
+  for item in agents atuin cf-include clangd gh ghostty git herdr jj nvim starship.toml; do
     link_path "$REPO_DIR/$item" "$CONFIG_HOME/$item"
   done
+
+  log "Linking AeroSpace config"
+  link_path "$REPO_DIR/aerospace/aerospace.toml" "$HOME/.aerospace.toml"
 
   log "Bootstrapping zsh"
   link_path "$REPO_DIR/zsh" "$CONFIG_HOME/zsh"
